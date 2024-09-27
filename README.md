@@ -1,2 +1,1 @@
-Personal Projects that I've been working on in my freetime!
-Enjoy!
+A personal project I've been working on in my freetime.
