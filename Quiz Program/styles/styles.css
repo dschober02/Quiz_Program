@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: bisque;
+}
+.app {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #ffcbc1;
+    border-bottom: #ffcbc1 1px solid;
+    padding-bottom: 30px;
+}
+h1#createQuiz {
+    padding-bottom: 0;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: chocolate;
+}
+.btn {
+    background: chocolate;
+    font-weight: 500;
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid white;
+    text-align: left;
+    cursor: pointer;
+    transition: ease 0.5s;
+    border-radius: 15px;
+}
+.btn:hover:not([disabled]) {
+    background: bisque;
+    color: black;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+#nextButton {
+    background: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 200px;
+    border: none;
+    padding: 15px;
+    margin: 20px 0 auto;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+    transition: ease 0.5s;
+}
+#nextButton:hover {
+    background: coral;
+    color: black;
+}
+.correct{
+    background: #9aeabc;
+    color: white;
+}
+.incorrect{
+    background: #ff9393;
+    color: white;
+}
+.navBtns{
+    text-decoration: none;
+    background: chocolate;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+.navBtns:hover{
+    background: white;
+    color: chocolate;
+}
+.questionBox{
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 500;
+}
+.textBox {
+    color: beige;
+    background-color: chocolate;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    border: none;
+    margin: 10px;
+}
+#createQuiz{
+    text-decoration: none;
+    color :white;
+}
