@@ -13,7 +13,7 @@ const questions = [
         answers: [
             { text: 'Boe Jiden', correct: false },
             { text: 'Donald Trump', correct: false },
-            { text: 'Futher Mocker', correct: false },
+            { text: 'No Idea', correct: false },
             { text: 'Joe Biden', correct: true },
         ]
     },
